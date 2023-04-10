@@ -29,7 +29,7 @@ function App() {
         <Image
         boxShadow="2xl"
         boxSize='130px'
-        src='/noe.jpg'
+        src='/noepompeyo.png'
         objectFit="cover"
         alt='Noe pompeyo'
         borderRadius="16px"
