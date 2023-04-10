@@ -2,7 +2,7 @@ import {BsInstagram, BsFacebook, BsTwitter, BsGithub} from 'react-icons/bs'
 import { Flex, Heading, VStack, Box, Text, Image, useColorMode, Button, HStack, IconButton, Link, Spacer } from '@chakra-ui/react'
 
 function App() {
-  const {colorMode, toggleColorMode} = useColorMode();
+  
 
   return (
    
