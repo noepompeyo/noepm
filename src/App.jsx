@@ -1,5 +1,5 @@
 import {BsInstagram, BsFacebook, BsTwitter, BsGithub} from 'react-icons/bs'
-import { Flex, Heading, VStack, Box, Text, Image, useColorMode, Button, HStack, IconButton, Link, Spacer } from '@chakra-ui/react'
+import { Flex, Heading, VStack, Box, Text, Image, useColorMode, Button, HStack, IconButton, Link, Spacer, LinkBox } from '@chakra-ui/react'
 
 function App() {
   
@@ -38,10 +38,18 @@ function App() {
         <Box bg="whiteAlpha.900" p={4}>
         <Text>Mexicano, actualmente viviendo en Guadalajara Jalisco, soy autodidacta en aprender tecnologias para crear en la web, y me encantaria compartir mis aprendizajes en las redes sociales.</Text>
         <HStack mt={3}> 
+        <Link href='https://www.instagram.com/noe_pompeyo/'>
           <IconButton fontSize="2xl"  variant="outline" icon={<BsInstagram/>} _hover={{color:"pink.600"}}/>
+        </Link>
+        <Link href='https://www.facebook.com/profile.php?id=100070381551144'>
           <IconButton fontSize="2xl" variant="outline" icon={<BsFacebook/>}  _hover={{color:"cyan.500"}}/>
+        </Link>
+        <Link href='https://twitter.com/NoePompeyo'>
           <IconButton fontSize="2xl" variant="outline" icon={<BsTwitter/>}  _hover={{color:"blue.400"}}/>
+        </Link>
+        <Link href='https://github.com/noepompeyo'>
           <IconButton fontSize="2xl" variant="outline" icon={<BsGithub/>}  _hover={{color:"gray.600"}}/>
+        </Link>
         </HStack>
         </Box>
       <Box >
